@@ -113,7 +113,7 @@ title = "Visit our asset store"
 body = "Soon you will be able to use professionally created assets in your games at very competitive prices"
 
 [[params.cta.link]]
-href = "#"
+href = "https://assetstore.unity.com/publishers/103009"
 text = "Unity Store"
 special = false
 
