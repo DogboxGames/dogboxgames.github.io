@@ -1,4 +1,4 @@
-baseURL = "dogboxgames.github.io"
+baseURL = "https://dogboxgames.github.io/"
 title = "Dogbox Games"
 languageCode = "en-us"
 defaultContentLanguage = "en"
