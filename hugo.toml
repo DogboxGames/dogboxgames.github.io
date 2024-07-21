@@ -1,0 +1,143 @@
+baseURL = "dogboxgames.github.io"
+title = "Dogbox Games"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
+publishDir = "docs"
+
+[params]
+fancyTitle = "Dogbox Games" # title for frontpage, may include image
+copyright = "Dogbox Games"
+description = 'We nourish talent to build an inclusive and supportive<br>work ethic to meet deadlines without crunch,<br>and aim to build trust and relationships through<br>professionalism, transparency and delivery.'
+#startbuttonText = "Activate"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'At Dogbox we create entertainment that allows your inner child to run wild'
+body = '''
+Producing games that combine childlike fun, relatable characters with real agency and compelling stories
+
+we create assets for developers to help them create their projects
+'''
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "1"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+
+[[params.one.icon]]
+icon = "solid fa-book"
+style = "3"
+
+[params.two]
+enable = false
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+title = 'Our Services'
+body = '''
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "FULL-CYCLE GAME DEVELOPMENT"
+body = "Highly Engaging Game Design and Development Services."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "FULL-CYCLE GAME PRODUCTION"
+body = "We provide a complete level of production of games. From concept through to production and beyond..."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "CO-DEVELOPMENT"
+body = "We can assist you with Art, Development, Sound effects and Music, working alongside your existing team to complete quality games and projects."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "GAME QA TESTING"
+body = "We can provide you with quality QA testers that are adept in a range of devices to ensure that your players can enjoy a bug-free gaming experience."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "2D AND 3D ART"
+body = "Our professional artists provide not only top quality assets but also have experience working with different styles and genre's."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "SOUND DESIGN"
+body = "From music to sound effects we can fulfil your requirements. No matter the style or genre, our highly talented sound designer has it covered."
+
+[params.cta]
+enable = true
+title = "Visit our asset store"
+body = "Soon you will be able to use professionally created assets in your games at very competitive prices"
+
+[[params.cta.link]]
+href = "#"
+text = "Unity Store"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message or use our mail <b>dogboxgames@outlook.com</b>"
+#phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "dogboxgames@outlook.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
