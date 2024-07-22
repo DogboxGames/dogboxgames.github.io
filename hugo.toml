@@ -23,8 +23,16 @@ url = '/'
 title = "Home"
 
 [[params.menu.main]]
-url = '/posts/'
-title = "Posts"
+url = '/#our_services'
+title = "Our Services"
+
+[[params.menu.main]]
+url = 'https://assetstore.unity.com/publishers/103009'
+title = "Asset Store"
+
+[[params.menu.main]]
+url = '/#contact'
+title = "Contact"
 
 [taxonomies]
     tag = "tags"
